@@ -559,3 +559,47 @@ footer .copy-right {
     display: none;
   }
 }
+
+
+
+ work-modal
+
+.work_modal,
+.work_modal2,
+.work_modal3
+ {
+    position: fixed;
+    z-index: 200;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    text-align: center;
+    width: 100%;
+    background: rgba(255,255,255,0.7);
+    display: none;
+}
+
+.work_modal-inner,
+.work_modal-inner2,
+.work_modal-inner3
+ {
+    height: 100%;
+    
+}
+
+.work_modal-img,
+.work_modal-img2,
+.work_modal-img3
+ {
+    height: 100%;
+    flex: 0 0 16%;
+    
+    
+  }
+  
+.work_modal-img img,
+.work_modal-img2 img,
+.work_modal-img3 img {
+  
+  height: 100%;
+}
