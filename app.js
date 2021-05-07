@@ -23,3 +23,17 @@ $(function () {
   });
 });
 
+
+$(function () {
+  $('.box').click(function(e) {
+    e.preventDefault();
+    fade = $(this).parents().next();
+    console.log(fade);
+    fade.fadeIn();
+});
+
+$('.work_modal').click(function() {
+    $(this).fadeOut();
+});
+
+});
